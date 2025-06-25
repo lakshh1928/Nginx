@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Web Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    .container {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+      padding: 30px;
+      margin-bottom: 30px;
+    }
+
+    .card h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .card p {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #4a90e2;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #357ab8;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .card h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Web Page</h1>
+    <p>A simple and clean design that looks good on all devices</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>About Me</h2>
+      <p>
+        I'm a creative designer and developer who loves building modern, user-friendly websites. Let's work together to bring your ideas to life.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Projects</h2>
+      <p>
+        From landing pages to full-stack apps, I enjoy crafting all types of web experiences. Check out my portfolio to see what I've been up to!
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Contact</h2>
+      <p>
+        Interested in collaborating? Let's connect!
+      </p>
+      <a href="mailto:you@example.com" class="btn">Send a Message</a>
+    </div>
+  </div>
+
+</body>
+</html>
+
